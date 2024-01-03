@@ -6,5 +6,5 @@ pipx ensurepath
 pipx install git+https://github.com/Pennyw0rth/NetExec
 pipx ensurepath
 echo -n 'export PATH=/home/kali/.local/bin:$PATH' >> ~/.zshrc # if you use bash change to .bashrc
-sleep 0.5
+sleep 1
 reboot
